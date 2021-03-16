@@ -54,6 +54,11 @@ module.exports = (env, argv) => {
           exclude: /node_modules/,
           use: [MiniCssExtractPlugin.loader, 'css-loader'],
         },
+        {
+          test: /\.(png|jpe?g|gif|svg)$/i,
+          exclude: /node_modules/,
+          use: ['file-loader'],
+        },
       ],
     },
     plugins: [
