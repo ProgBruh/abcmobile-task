@@ -68,6 +68,7 @@ module.exports = (env, argv) => {
       }),
       new HtmlWebpackPlugin({
         template: './src/index.html',
+        favicon: './src/assets/favicon.ico',
       }),
       new VueLoaderPlugin(),
     ],

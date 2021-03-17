@@ -202,11 +202,14 @@ export default {
 }
 .main {
   margin-bottom: 2rem;
-  padding-top: 4rem;
+  padding-top: 5rem;
 }
 .box {
   position: relative;
-  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.4);
   padding-top: 4.5rem;
   padding-bottom: 4rem;
