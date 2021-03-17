@@ -71,8 +71,14 @@ export default {
             '\n' +
             'Возможно это кто-то из Ваших родителей.';
           break;
+        default:
+          value =
+            'По вам скучает очень близкий человек,' +
+            '\n' +
+            'которого больше нет в мире живых.';
+          break;
       }
-      return value.trim();
+      return value;
     },
   },
   methods: {
